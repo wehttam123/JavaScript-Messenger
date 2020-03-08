@@ -1,0 +1,17 @@
+{
+  "name": "javascript-messenger",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+  }
+}
