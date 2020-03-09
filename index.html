@@ -4,15 +4,19 @@
 <html>
   <head>
     <title>Javascript Messenger</title>
-    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="messenger.js"></script>
   </head>
   <body>
-    <ul id="messages"></ul>
+    <div class="windows">
+      <ul class="chatWindow" id="messages"></ul>
+      <div class="slider"></div>
+      <ul class="usersWindow" id="users"></ul>
+    </div>
     <form action="">
       <input id="m" autocomplete="off" /><button>Send</button>
     </form>
-    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
-    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
   </body>
 </html>
